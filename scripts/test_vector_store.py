@@ -19,7 +19,7 @@ if __name__ == "__main__":
     store.build_index(parsed_data)
 
     # Step 3: Query
-    query = "Which functions are used in this repo"
+    query = "fix helper.py file in my repo"
 
     results = store.search(query, top_k=3)
 

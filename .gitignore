@@ -3,4 +3,12 @@ venv/
 __pycache__/
 *.pyc
 .env
-repos/WhatsApp-*/
+repos/
+.aide_index.faiss
+.aide_index.meta.pkl
+*.faiss
+*.pkl
+.streamlit/
+.pytest_cache/
+.mypy_cache/
+.DS_Store

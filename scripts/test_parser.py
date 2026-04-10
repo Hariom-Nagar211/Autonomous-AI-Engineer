@@ -5,7 +5,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from backend.rag.parser import CodeParser
 
 if __name__ == "__main__":
-    repo_path = "repos/Whatsapp-Chat-Analyzer"  
+    repo_path = r"D:\Autonomous-AI-Engineer\repos\Whatsapp-Chat-Analyzer"
 
     parser = CodeParser(language="python")
 
